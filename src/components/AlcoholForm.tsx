@@ -11,7 +11,7 @@ interface AlcoholFormProps {
     data?: {}
 }
 
-const AlcoholForm=(props:AlcoholFormProps) =>  {
+const AlcoholForm= (props:AlcoholFormProps) =>  {
     const { register, handleSubmit } = useForm({})
     const dispatch = useDispatch();
     const store = useStore();

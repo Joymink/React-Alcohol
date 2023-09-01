@@ -105,11 +105,6 @@ function DataTable() {
                 </div>
             </div>
             
-                
-                
-
-            
-
         </div>
         
     </>
