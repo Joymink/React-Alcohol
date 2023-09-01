@@ -1,3 +1,4 @@
+
 export const firebaseConfig = {
     apiKey: "AIzaSyCzc8CcLyy890lmTpslL6mJAJpFu-neNeY",
     authDomain: "alcohol-activists.firebaseapp.com",

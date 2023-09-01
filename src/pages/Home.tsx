@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Background from '../assets/images/Background-unsplash-Nick.jpg'
 
 function Home() {

@@ -1,4 +1,4 @@
-import {useState} from 'react'
+
 import { Link } from 'react-router-dom'
 import Button from './Button'
 import { signInWithPopup, signOut } from 'firebase/auth'
@@ -54,15 +54,7 @@ function Navbar() {
                             </div>
 
                         </Button>
-                        <Button className="p-3 m-5 bg-indigo-900 justify-center rounded-full">
-                            <div>
-                                <Link to='/contact'  className='flex place-items-center mt-4 lg:inline-block lg:mt-0
-                                text-indigo-200 hover:text-white mr-1'>
-                                    Contact
-                                </Link>
-                            </div>
-
-                        </Button>
+                        
                         {
                             !auth.currentUser ? 
                             <Button className='p-3 m-5 bg-indigo-900 justify-center rounded-full'>
